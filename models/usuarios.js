@@ -12,4 +12,4 @@ const Usuarios = Schema({
     }
 })
 
-module.exports = Usuarios
+module.exports = model('usuarios',Usuarios)
